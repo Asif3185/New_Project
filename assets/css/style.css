@@ -1,0 +1,160 @@
+/* Global Styles */
+body{
+    font-family: 'SF Pro Display', sans-serif; /* Use 'SF Pro Display' as the font name */
+    background-color:#F8F5F0;
+}
+@media (max-width: 576px) { 
+    .responsive{
+        line-height: normal;
+        font-size: 80px;
+    }
+    /* .searchbox-wrap{
+        display: none;
+    } */
+    /* .social-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        float:none;
+    }  */
+}
+/* Headings */
+h1 {font-family:'SF Pro Display', sans-serif;
+    font-size: 112px;
+    font-weight: 700;
+    line-height: 112px;
+    text-align: center;
+    color:#1F392C;
+}
+H2 {font-family: 'SF Pro Display', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 66.83px;
+    text-align: center;
+    color:#1F392C;
+}
+
+h3 {font-family: 'SF Pro Display', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.28px;
+    text-align: center;
+    color:#1F392C;
+}
+
+h4 {font-family: 'SF Pro Display', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47.73px;
+    text-align: center;
+    color:#1F392C;
+}
+    
+h5 {font-family: 'SF Pro Display', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.19px;
+    text-align: center;
+    color:#1F392C;
+}
+P {font-family: 'SF Pro Display', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+.navbar-brand{
+    font-family: 'SF Pro Display', sans-serif; /* Use 'SF Pro Display' as the font name */
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color:#1F392C;
+}
+.nav-link{
+    font-family: 'SF Pro Display', sans-serif; /* Use 'SF Pro Display' as the font name */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color:#1F392C;
+}
+.btn-text{
+    font-family: 'SF Pro Display', sans-serif; /* Use 'SF Pro Display' as the font name */
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    background: #FF60E6;
+
+
+}
+.btn-text:hover{
+    background: #FF60E6;
+}
+
+.searchbox-wrap{
+    width: 400px; 
+    max-width: 100%;
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
+}
+.searchbox-wrap input{
+    width: 100%;
+    background-color: #ffff;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+}
+.searchbox-wrap button{
+    border-radius: 10px;
+    position: absolute;
+    right: 0; 
+   margin: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left:15px;
+   padding-right: 15px;
+  border: none;
+   background-color: #FF60E6;
+    
+   
+}
+.list-items{
+    list-style-type:none;
+}
+
+.partner-content{
+    background-color: #ffffff;
+    padding: 30px;
+}
+.cards-wrap {
+    background-color:#ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    border: #1F392C;
+}
+.custom-size{
+    width: 40px;
+    height: 40px;
+}
+  
+@media  (min-width: 768px) {
+    .h1{
+        line-height: normal;
+        font-size: 80px;
+    }
+       
+} 
+
+
+
+
