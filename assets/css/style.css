@@ -8,6 +8,10 @@ body{
         line-height: normal;
         font-size: 80px;
     }
+    .icon-wrap{
+        text-align: center;
+        align-items: start;
+    }
     /* .searchbox-wrap{
         display: none;
     } */
@@ -146,12 +150,43 @@ P {font-family: 'SF Pro Display', sans-serif;
     width: 40px;
     height: 40px;
 }
+.custom-style{
+    width: 80px;
+    height: 80px;
+}
+.cards-holder{
+    background-color: #FFADF2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+
+}
+.cards-holder-color{
+    background-color:fuchsia;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+
+}
+.cards-holder-logos{
+    background-color:fuchsia;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
   
 @media  (min-width: 768px) {
     .h1{
         line-height: normal;
         font-size: 80px;
     }
+
        
 } 
 
