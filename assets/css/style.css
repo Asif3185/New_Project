@@ -178,9 +178,35 @@ P {font-family: 'SF Pro Display', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.line-style-box{
+    font-size: 56px;
+    font-weight: bold;
+    display: inline-block;
+    background-image: url('/assets/images/svg/bg-icon-3.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 99%;
 
 
-  
+}
+.line-style{
+    font-size: 56px;
+    font-weight: bold;
+    display: inline-block;
+    background-image: url('/assets/images/svg/bg-icon-2.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 99%;
+
+}
+.highlight {
+    font-size: 56px;
+    font-weight: bold;
+    display: inline-block;
+    background-image: url('/assets/images/svg/bg-icon-1.svg');
+    background-repeat: no-repeat;
+    /*background-position: 50% 50%;*/
+    padding-right: 15px;
+    padding-left: 5px;
+}
 @media  (min-width: 768px) {
     .h1{
         line-height: normal;
@@ -188,7 +214,8 @@ P {font-family: 'SF Pro Display', sans-serif;
     }
 
        
-} 
+}
+
 
 
 
